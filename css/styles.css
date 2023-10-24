@@ -11,23 +11,28 @@
 	padding: 0;
 }
 
-nav a:hover {
-  color: red;
-	font-family: 'splatter', sans-serif;
-	
-}
-
 body {
 	background-color: #252422;
 }
 
-h1 {
+#title {
 	font-size: 5vw;
 	font-family: 'Rubik Wet Paint', cursive;
 	color: green;
 }
 
-h2 {
+header img {
+	width: 100%;
+	position: absolute;
+	transition-duration: .4s;
+	transform: translateY(-200%);
+}
+
+header:hover img {
+	transform: translateY(-300%);
+}
+
+#desc {
 	font-size: 2.5vw;
 	font-family: 'Special Elite', cursive;
 	color: white;
@@ -55,6 +60,11 @@ nav a {
 header nav {
 	background-color: #403d39;
 	text-align: center;
+	transition-duration: .4s;
+}
+
+header:hover nav {
+	transform: translateY(25%);
 }
 
 #calender {
@@ -66,17 +76,26 @@ header nav {
 
 #calender figure {
 	background-color: #eb5e28;
-	outline: #252422 solid .2vw;
+	outline: #E03B00 solid .15vw;
+	
+}
+
+figure p {
+	position: absolute;
+	font-size: 5vw;
+	margin-left: .9%;
 }
 
 .num {
 	padding: 5% 40% 40% 5%;
+	font-family: 'Special Elite', cursive;
 }
 
 .day figcaption {
 	text-align: center;
-	font-size: 1.1vw;
+	font-size: .9vw;
 	margin: 5% 0;
+	font-family: 'Special Elite', cursive;
 }
 
 footer {
@@ -95,16 +114,23 @@ footer {
     100% { text-shadow: 0 0 15px red; }
 }
 
-p {
-    -webkit-animation: blink 3.0s linear infinite;
-    -moz-animation: blink 3.0s linear infinite;
-    -ms-animation: blink 3.0s linear infinite;
-    -o-animation: blink 3.0s linear infinite;
-    animation: blink 3.0s linear infinite;
+#header {
+    -webkit-animation: blink 2s linear infinite;
+    -moz-animation: blink 2s linear infinite;
+    -ms-animation: blink 2s linear infinite;
+    -o-animation: blink 2s linear infinite;
+    animation: blink 2s linear infinite;
 	font-size: 5vw;
 	text-align: center;
 	font-family: 'Bloody', sans-serif;
 	color: black;
+	margin: .5% 0;
+	transition-duration: .4s;
+	transform: translateY(5%);
+}
+
+header:hover #header {
+	transform: translateY(40%);
 }
 
 
