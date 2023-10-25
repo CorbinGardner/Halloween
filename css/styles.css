@@ -133,6 +133,9 @@ header:hover #header {
 	transform: translateY(40%);
 }
 
+header img {
+	width: 100px
+}
 
 
 
