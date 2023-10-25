@@ -32,7 +32,7 @@ header:hover img {
 	transform: translateY(-300%);
 }
 
-#desc {
+.desc {
 	font-size: 2.5vw;
 	font-family: 'Special Elite', cursive;
 	color: white;
@@ -55,11 +55,6 @@ nav a {
 	text-decoration: none;
 	font-size: 2vw;
 	color: #eb5e28;
-	transition-duration: .2s;
-}
-
-nav a:hover {
-	text-shadow: 0 0 .5vw red;
 }
 
 header nav {
@@ -119,7 +114,7 @@ footer {
     100% { text-shadow: 0 0 15px red; }
 }
 
-#title {
+#header {
     -webkit-animation: blink 2s linear infinite;
     -moz-animation: blink 2s linear infinite;
     -ms-animation: blink 2s linear infinite;
@@ -134,10 +129,17 @@ footer {
 	transform: translateY(5%);
 }
 
-header:hover #title {
+header:hover #header {
 	transform: translateY(40%);
 }
 
+header img {
+	width: 100px
+}
+
+img {
+	width: 18%;
+}
 
 
 
