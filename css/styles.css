@@ -36,8 +36,9 @@ header:hover img {
 	font-size: 2.5vw;
 	font-family: 'Special Elite', cursive;
 	color: white;
-	width: 45%;
-	margin: 0 2.5%;
+	width: 80%;
+	padding: 5%;
+	margin: 5% 2.5%;
 }
 
 nav {
@@ -104,10 +105,6 @@ figure p {
 	font-family: 'Special Elite', cursive;
 }
 
-footer {
-	margin-top: 50%;
-}
-
 @keyframes blink {
     0% { text-shadow: 0 0 15px red; }
     50% { text-shadow: none; }
@@ -140,7 +137,7 @@ header:hover #title {
 }
 
 #freakShow {
-	width: 45%;
+	width: 40%;
 	margin: 0 2.5%;
 	float: right;
 }
@@ -148,6 +145,48 @@ header:hover #title {
 main img {
 	border-radius: 1vw;
 	outline: solid .2vw grey;
+}
+
+.title {
+	font-size: 5vw;
+	font-family: 'Julee', cursive;
+	text-shadow: 0 0 5vw white;
+	text-align: center;
+	margin: 3% 0;
+}
+
+label {
+	font-family: 'Special Elite', cursive;
+	font-size: 3vw;
+	margin: 3% 3% 3% 15%;
+}
+
+input {
+	font-family: 'Special Elite', cursive;
+	padding: .75%;
+	margin: 3% 3% 3% 20%;
+	border-radius: 5vw;
+	outline: solid red .2vw;
+	background: #C20D0A;
+	font-size: 2vw;
+}
+
+.btn {
+	box-shadow: .5vw .5vw .5vw .5vw black;
+	transition-duration: .05s;
+}
+
+.btn:active {
+	box-shadow: none;
+	transform: translateY(2%);
+}
+
+@media screen and (max-width: 630px) {
+	
+	header img {
+		display: none;
+	}
+	
 }
 
 
